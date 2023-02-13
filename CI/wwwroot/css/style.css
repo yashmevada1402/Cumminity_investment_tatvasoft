@@ -1,0 +1,72 @@
+#carouselExampleCaptions {
+    /* padding: 10px;*/
+    height: 100vh;
+}
+
+.carousel-inner,
+.carousel-item,
+.d-block {
+    height: 100%;
+}
+.imglogo{
+    width: 100%;
+    text-align: center;
+}
+.loginDiv {
+    padding: 40% 5% 0% 5%;
+}
+.loginDivForRegistrtion {
+    padding: 5% 5% 0% 5%;
+}
+
+
+.lableLogin {
+    width: 100%;
+    height: 22px;
+    color: #414141;
+    margin-top: 2%;
+}
+
+#emailAddress,
+#password {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /*box-shadow: 0.97px 0.26px 3px #0000000D;*/
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+}
+
+.detailsloginpage {
+    margin: 1%;
+}
+
+.loginBtnDiv {
+    text-align: center;
+    margin-top : 2%;
+}
+
+.loginBtn {
+    width: 100%;
+    color: #F88634;
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid;
+    border-radius: 24px;
+    margin-top: 2%;
+}
+.policy{
+    width: 100%;
+    text-align: center;
+}
+#privacy{
+    color: #414141;
+}
+
+@media  screen and (max-width : 767px ) {
+    #carouselExampleCaptions {
+        height: auto;
+    }
+}
+@media  screen and (max-width :991px ) {
+    .loginDiv {
+        padding: 7% 5% 0% 5%;
+    }
+}
