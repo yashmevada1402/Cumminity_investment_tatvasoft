@@ -21,6 +21,10 @@ namespace CI.Controllers
         {
             return View();
         }
+        public IActionResult MissionLandingPage()
+        {
+            return View();
+        }
         public IActionResult Registration()
         {
             return View();
